@@ -1,0 +1,35 @@
+2024-06-07T05:35:48.201Z info: Connected to DB and listening to port
+2024-06-07T05:36:34.483Z info: /api/user/signup
+2024-06-07T05:36:34.574Z info: User Logged In!!!
+2024-06-07T05:36:34.579Z info: Token created!!!
+2024-06-07T05:36:56.458Z info: /api/user/login
+2024-06-07T05:36:56.543Z info: User created!!!
+2024-06-07T05:36:56.545Z info: Token created!!!
+2024-06-07T05:37:38.394Z info: Connected to DB and listening to port
+2024-06-07T05:37:42.490Z info: Connected to DB and listening to port
+2024-06-07T05:37:46.183Z info: Connected to DB and listening to port
+2024-06-07T05:37:53.415Z info: Connected to DB and listening to port
+2024-06-07T05:39:02.936Z info: /metrics
+2024-06-07T05:39:03.070Z info: /favicon.ico
+2024-06-07T05:39:13.368Z info: /metrics
+2024-06-07T05:39:21.567Z info: /metrics
+2024-06-07T05:39:22.574Z info: /metrics
+2024-06-07T05:42:28.864Z info: /metrics
+2024-06-07T05:45:55.388Z info: Connected to DB and listening to port
+2024-06-07T05:47:26.120Z info: Connected to DB and listening to port
+2024-06-07T05:47:31.387Z info: Connected to DB and listening to port
+2024-06-07T05:47:59.429Z info: Connected to DB and listening to port
+2024-06-07T05:48:02.527Z info: Connected to DB and listening to port
+2024-06-07T05:48:06.816Z info: Connected to DB and listening to port
+2024-06-07T05:48:09.138Z info: Connected to DB and listening to port
+2024-06-07T05:48:10.686Z info: Connected to DB and listening to port
+2024-06-07T05:48:13.440Z info: Connected to DB and listening to port
+2024-06-07T05:49:04.301Z info: /api/user/login
+2024-06-07T05:49:04.319Z error: error:  Incorrect Email
+2024-06-07T05:49:13.753Z info: /api/user/signup
+2024-06-07T05:49:13.848Z info: User Signed Up!!!
+2024-06-07T05:49:13.852Z info: Token created!!!
+2024-06-07T05:49:28.505Z info: /api/user/login
+2024-06-07T05:49:28.640Z info: User Logged In!!!
+2024-06-07T05:49:28.643Z info: Token Created!!!
+2024-06-07T06:00:01.839Z info: Connected to DB and listening to port

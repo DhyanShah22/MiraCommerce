@@ -1,0 +1,3 @@
+{"level":"info","message":{"duration":0.021,"method":"POST","route":"/login","status_code":400},"timestamp":"2024-06-07T05:49:04.322Z"}
+{"level":"info","message":{"duration":0.101,"method":"POST","route":"/signup","status_code":200},"timestamp":"2024-06-07T05:49:13.853Z"}
+{"level":"info","message":{"duration":0.143,"method":"POST","route":"/login","status_code":200},"timestamp":"2024-06-07T05:49:28.648Z"}
