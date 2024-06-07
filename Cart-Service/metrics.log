@@ -1,0 +1,14 @@
+{"level":"info","message":{"duration":0.007,"method":"GET","route":"/","status_code":401},"timestamp":"2024-06-07T18:34:24.056Z"}
+{"level":"info","message":{"duration":0.025,"method":"GET","route":"/","status_code":404},"timestamp":"2024-06-07T18:35:18.619Z"}
+{"level":"info","message":{"duration":0.006,"method":"GET","route":"/","status_code":403},"timestamp":"2024-06-07T18:35:44.852Z"}
+{"level":"info","message":{"duration":0.039,"method":"POST","route":"/","status_code":200},"timestamp":"2024-06-07T18:38:39.453Z"}
+{"level":"info","message":{"duration":0.017,"method":"GET","route":"/","status_code":500},"timestamp":"2024-06-07T18:38:48.333Z"}
+{"level":"info","message":{"duration":0.01,"method":"GET","route":"/","status_code":500},"timestamp":"2024-06-07T18:41:18.355Z"}
+{"level":"info","message":{"duration":0.045,"method":"GET","route":"/","status_code":500},"timestamp":"2024-06-07T18:50:10.838Z"}
+{"level":"info","message":{"duration":0.041,"method":"GET","route":"/","status_code":500},"timestamp":"2024-06-07T18:51:25.823Z"}
+{"level":"info","message":{"duration":0.147,"method":"GET","route":"/","status_code":200},"timestamp":"2024-06-07T18:52:49.232Z"}
+{"level":"info","message":{"duration":0.029,"method":"DELETE","route":"/66630ede488be8a2170ca8dd","status_code":200},"timestamp":"2024-06-07T18:53:53.442Z"}
+{"level":"info","message":{"duration":0.003,"method":"GET","route":"/api/cart/66630ede488be8a2170ca8dd","status_code":404},"timestamp":"2024-06-07T18:54:00.603Z"}
+{"level":"info","message":{"duration":0.013,"method":"GET","route":"/","status_code":200},"timestamp":"2024-06-07T18:54:10.848Z"}
+{"level":"info","message":{"duration":0.036,"method":"DELETE","route":"/","status_code":200},"timestamp":"2024-06-07T18:55:05.819Z"}
+{"level":"info","message":{"duration":0.006,"method":"GET","route":"/","status_code":200},"timestamp":"2024-06-07T18:55:12.204Z"}

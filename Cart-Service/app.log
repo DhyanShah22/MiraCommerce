@@ -1,0 +1,76 @@
+2024-06-07T15:20:46.145Z info: Connected to DB and listening to port: 8000
+2024-06-07T18:33:02.140Z info: Connected to DB and listening to port: 8000
+2024-06-07T18:33:37.996Z info: Connected to DB and listening to port: 8000
+2024-06-07T18:34:24.049Z info: /api/cart
+2024-06-07T18:35:18.595Z info: /api/cart
+2024-06-07T18:35:18.598Z info: customer
+2024-06-07T18:35:18.603Z info: Authentication success...
+2024-06-07T18:35:18.615Z error: Cart not available
+2024-06-07T18:35:44.845Z info: /api/cart
+2024-06-07T18:35:44.849Z info: seller
+2024-06-07T18:35:44.850Z info: Authentication success...
+2024-06-07T18:38:39.413Z info: /api/cart/
+2024-06-07T18:38:39.415Z info: customer
+2024-06-07T18:38:39.416Z info: Authentication success...
+2024-06-07T18:38:39.419Z info: Creating a new cart!
+2024-06-07T18:38:39.427Z info: Checking item index!!
+2024-06-07T18:38:39.430Z info: Cart created!
+2024-06-07T18:38:39.450Z info: Product added to cart
+2024-06-07T18:38:48.316Z info: /api/cart/
+2024-06-07T18:38:48.319Z info: customer
+2024-06-07T18:38:48.319Z info: Authentication success...
+2024-06-07T18:38:48.328Z error: Schema hasn't been registered for model "Product".
+Use mongoose.model(name, schema)
+2024-06-07T18:41:18.346Z info: /api/cart/
+2024-06-07T18:41:18.349Z info: customer
+2024-06-07T18:41:18.349Z info: Authentication success...
+2024-06-07T18:41:18.353Z error: Schema hasn't been registered for model "Product".
+Use mongoose.model(name, schema)
+2024-06-07T18:44:06.064Z info: Connected to DB and listening to port: 8000
+2024-06-07T18:45:10.240Z info: Connected to DB and listening to port: 8000
+2024-06-07T18:45:12.450Z info: Connected to DB and listening to port: 8000
+2024-06-07T18:46:33.495Z info: Connected to DB and listening to port: 8000
+2024-06-07T18:46:49.924Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:48:29.696Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:48:31.496Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:48:36.154Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:48:47.775Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:50:01.591Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:50:10.793Z info: /api/cart/
+2024-06-07T18:50:10.797Z info: customer
+2024-06-07T18:50:10.802Z info: Authentication success...
+2024-06-07T18:50:10.832Z error: Schema hasn't been registered for model "EcomProduct".
+Use mongoose.model(name, schema)
+2024-06-07T18:51:12.467Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:51:25.782Z info: /api/cart/
+2024-06-07T18:51:25.787Z info: customer
+2024-06-07T18:51:25.791Z info: Authentication success...
+2024-06-07T18:51:25.815Z error: Schema hasn't been registered for model "EcomProduct".
+Use mongoose.model(name, schema)
+2024-06-07T18:51:58.499Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:52:24.212Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:52:26.521Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:52:41.749Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:52:45.049Z info: Connected to DB and listening to port: 7000
+2024-06-07T18:52:49.085Z info: /api/cart/
+2024-06-07T18:52:49.091Z info: customer
+2024-06-07T18:52:49.098Z info: Authentication success...
+2024-06-07T18:52:49.208Z info: The cart: 
+2024-06-07T18:53:53.414Z info: /api/cart/66630ede488be8a2170ca8dd
+2024-06-07T18:53:53.416Z info: customer
+2024-06-07T18:53:53.417Z info: Authentication success...
+2024-06-07T18:53:53.440Z info: Product removed from cart
+2024-06-07T18:54:00.601Z info: /api/cart/66630ede488be8a2170ca8dd
+2024-06-07T18:54:10.835Z info: /api/cart/
+2024-06-07T18:54:10.837Z info: customer
+2024-06-07T18:54:10.837Z info: Authentication success...
+2024-06-07T18:54:10.847Z info: The cart: 
+2024-06-07T18:55:05.784Z info: /api/cart/
+2024-06-07T18:55:05.786Z info: customer
+2024-06-07T18:55:05.787Z info: Authentication success...
+2024-06-07T18:55:05.817Z info: Cart Created!!
+2024-06-07T18:55:12.198Z info: /api/cart/
+2024-06-07T18:55:12.200Z info: customer
+2024-06-07T18:55:12.200Z info: Authentication success...
+2024-06-07T18:55:12.203Z info: The cart: 
+2024-06-07T18:56:47.648Z info: Connected to DB and listening to port: 7000
