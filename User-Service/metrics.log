@@ -1,3 +1,6 @@
 {"level":"info","message":{"duration":0.021,"method":"POST","route":"/login","status_code":400},"timestamp":"2024-06-07T05:49:04.322Z"}
 {"level":"info","message":{"duration":0.101,"method":"POST","route":"/signup","status_code":200},"timestamp":"2024-06-07T05:49:13.853Z"}
 {"level":"info","message":{"duration":0.143,"method":"POST","route":"/login","status_code":200},"timestamp":"2024-06-07T05:49:28.648Z"}
+{"level":"info","message":{"duration":0.105,"method":"POST","route":"/signup","status_code":200},"timestamp":"2024-06-07T08:40:56.755Z"}
+{"level":"info","message":{"duration":0.084,"method":"POST","route":"/signup","status_code":200},"timestamp":"2024-06-07T13:35:08.603Z"}
+{"level":"info","message":{"duration":0.077,"method":"POST","route":"/signup","status_code":200},"timestamp":"2024-06-07T13:45:26.452Z"}

@@ -33,3 +33,15 @@
 2024-06-07T05:49:28.640Z info: User Logged In!!!
 2024-06-07T05:49:28.643Z info: Token Created!!!
 2024-06-07T06:00:01.839Z info: Connected to DB and listening to port
+2024-06-07T06:06:55.615Z info: Connected to DB and listening to port
+2024-06-07T06:37:15.106Z info: Connected to DB and listening to port: 9000
+2024-06-07T08:40:54.965Z info: Connected to DB and listening to port: 9000
+2024-06-07T08:40:56.650Z info: /api/user/signup
+2024-06-07T08:40:56.743Z info: User Signed Up!!!
+2024-06-07T08:40:56.748Z info: Token created!!!
+2024-06-07T13:35:08.520Z info: /api/user/signup
+2024-06-07T13:35:08.601Z info: User Signed Up!!!
+2024-06-07T13:35:08.602Z info: Token created!!!
+2024-06-07T13:45:26.376Z info: /api/user/signup
+2024-06-07T13:45:26.449Z info: User Signed Up!!!
+2024-06-07T13:45:26.451Z info: Token created!!!

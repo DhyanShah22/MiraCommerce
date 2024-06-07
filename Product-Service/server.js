@@ -6,8 +6,8 @@ const helmet = require('helmet')
 const { collectMetrics, metricsEndpoint } = require('./Middleware/metrics');
 
 require('dotenv').config()
-const userRoutes = require('./Routes/userRoutes')
 const logger = require('./Logger/logger')
+const productRoutes = require('./Routes/productRoutes')
 const app = express()
 app.use(express.json())
 
@@ -22,13 +22,13 @@ app.use((req, res, next) => {
 })
 
 app.get('/metrics', metricsEndpoint);
+app.use('/api/product', productRoutes)
 
-app.use('/api/user', userRoutes)
 mongoose.connect(process.env.MONG_URI)
     .then(() => {
         app.listen((process.env.PORT), () => {
             console.log('Connected to DB and listening to port', process.env.PORT)
-            //logger.info('Connected to DB and listening to port: 9000')
+            //logger.info('Connected to DB and listening to port: 8000')
         })
     })
     .catch((error) => {
