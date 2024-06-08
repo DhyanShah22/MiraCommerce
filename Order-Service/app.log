@@ -1,0 +1,31 @@
+2024-06-08T07:13:10.838Z info: Connected to DB and listening to port: 4000
+2024-06-08T07:15:34.668Z info: /api/order
+2024-06-08T07:15:34.673Z info: customer
+2024-06-08T07:15:34.676Z info: Finding Information..
+2024-06-08T07:15:34.678Z info: Authentication success...
+2024-06-08T07:15:34.697Z info: 
+2024-06-08T07:16:10.527Z info: Connected to DB and listening to port: 4000
+2024-06-08T07:17:47.453Z info: /api/order
+2024-06-08T07:17:47.493Z info: customer
+2024-06-08T07:17:47.502Z info: Finding Information..
+2024-06-08T07:17:47.506Z info: Authentication success...
+2024-06-08T07:17:47.539Z info: 
+2024-06-08T07:17:56.486Z info: /api/order/
+2024-06-08T07:17:56.488Z info: customer
+2024-06-08T07:17:56.489Z info: Authentication success...
+2024-06-08T07:17:56.495Z info: Total Price counting..
+2024-06-08T07:17:56.526Z info: Order Saved
+2024-06-08T07:19:21.668Z info: Connected to DB and listening to port: 4000
+2024-06-08T07:19:30.926Z info: Connected to DB and listening to port: 4000
+2024-06-08T07:19:32.791Z info: Connected to DB and listening to port: 4000
+2024-06-08T07:20:19.205Z info: /api/order/666405a4184399b125970ed0/status
+2024-06-08T07:20:19.209Z info: customer
+2024-06-08T07:20:19.213Z info: Authentication success...
+2024-06-08T07:20:51.118Z info: /api/order/
+2024-06-08T07:20:51.120Z info: seller
+2024-06-08T07:20:51.122Z info: Authentication success...
+2024-06-08T07:21:04.535Z info: /api/order/666405a4184399b125970ed0/status
+2024-06-08T07:21:04.537Z info: seller
+2024-06-08T07:21:04.539Z info: Authentication success...
+2024-06-08T07:21:04.556Z info: Completed
+2024-06-08T07:21:04.571Z info: Order Saved

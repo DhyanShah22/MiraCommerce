@@ -1,0 +1,6 @@
+{"level":"info","message":{"duration":0.032,"method":"GET","route":"/","status_code":200},"timestamp":"2024-06-08T07:15:34.698Z"}
+{"level":"info","message":{"duration":0.093,"method":"GET","route":"/","status_code":200},"timestamp":"2024-06-08T07:17:47.541Z"}
+{"level":"info","message":{"duration":0.043,"method":"POST","route":"/","status_code":201},"timestamp":"2024-06-08T07:17:56.528Z"}
+{"level":"info","message":{"duration":0.011,"method":"PATCH","route":"/666405a4184399b125970ed0/status","status_code":403},"timestamp":"2024-06-08T07:20:19.215Z"}
+{"level":"info","message":{"duration":0.004,"method":"POST","route":"/","status_code":403},"timestamp":"2024-06-08T07:20:51.122Z"}
+{"level":"info","message":{"duration":0.039,"method":"PATCH","route":"/666405a4184399b125970ed0/status","status_code":200},"timestamp":"2024-06-08T07:21:04.574Z"}

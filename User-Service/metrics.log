@@ -5,3 +5,4 @@
 {"level":"info","message":{"duration":0.084,"method":"POST","route":"/signup","status_code":200},"timestamp":"2024-06-07T13:35:08.603Z"}
 {"level":"info","message":{"duration":0.077,"method":"POST","route":"/signup","status_code":200},"timestamp":"2024-06-07T13:45:26.452Z"}
 {"level":"info","message":{"duration":0.096,"method":"POST","route":"/signup","status_code":200},"timestamp":"2024-06-07T18:35:08.695Z"}
+{"level":"info","message":{"duration":0.109,"method":"POST","route":"/signup","status_code":200},"timestamp":"2024-06-08T07:20:37.512Z"}

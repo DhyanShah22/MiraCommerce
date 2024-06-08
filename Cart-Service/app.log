@@ -74,3 +74,6 @@ Use mongoose.model(name, schema)
 2024-06-07T18:55:12.200Z info: Authentication success...
 2024-06-07T18:55:12.203Z info: The cart: 
 2024-06-07T18:56:47.648Z info: Connected to DB and listening to port: 7000
+2024-06-08T07:14:50.788Z info: Connected to DB and listening to port: 7000
+2024-06-08T07:35:45.709Z info: Connected to DB and listening to port: 7000
+2024-06-08T07:35:46.589Z info: Connected to DB and listening to port: 7000
