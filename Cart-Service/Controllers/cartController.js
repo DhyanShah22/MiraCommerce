@@ -2,17 +2,35 @@ const Cart = require('../Models/cartModel')
 const logger = require('../Logger/logger')
 const Product = require('../Models/productModels')
 
+const {
+    getCache,
+    setCache
+} = require('../Services/redisService')
+
 const getCart = async (req,res) => {
     const UserId = req.user._id
 
     try {
+        logger.info('Fetching Users..')
+        const cachedCarts = await getCache('carts')
+        if(cachedCarts) {
+            logger.info('Cached Users!!')
+            logger.info(cachedCarts)
+            const parsedUsers = JSON.parse(cachedCarts);
+            logger.info(parsedUsers)
+            return res.status(201).json(parsedUsers)
+        }
+
+        logger.info('Fetching Cart from Database!!')
         const cart = await Cart.findOne({ UserId }).populate('items.ProductId');
         if (!cart) {
             logger.error('Cart not available')
             return res.status(404).json({ message: 'Cart not found' });
         }
-        logger.info('The cart: ', cart)
-        res.status(200).json(cart);
+        logger.info('Caching Carts....')
+        await setCache('carts', cart)
+        logger.info(cart)
+        return res.status(200).json(cart);
     } catch (error) {
         logger.error(error)
         res.status(500).json({ message: 'Server error', error });

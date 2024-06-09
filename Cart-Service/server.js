@@ -14,6 +14,9 @@ app.use(express.json())
 app.use(collectMetrics); 
 app.use(helmet())
 app.use(morgan('dev'))
+const {
+    connectRedis
+} = require('./Config/redisConfig')
 
 app.use((req, res, next) => {
     //console.log(req.path, req.method)
@@ -23,6 +26,7 @@ app.use((req, res, next) => {
 
 app.get('/metrics', metricsEndpoint);
 app.use('/api/cart', cartRoutes)
+connectRedis()
 
 mongoose.connect(process.env.MONG_URI)
     .then(() => {

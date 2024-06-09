@@ -5,7 +5,12 @@ const helmet = require('helmet')
 
 const { collectMetrics, metricsEndpoint } = require('./Middleware/metrics');
 
+const {
+    connectRedis
+} = require('./Config/redisConfig')
+
 require('dotenv').config()
+connectRedis()
 const logger = require('./Logger/logger')
 const productRoutes = require('./Routes/productRoutes')
 const app = express()

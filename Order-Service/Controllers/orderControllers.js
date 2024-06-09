@@ -2,6 +2,10 @@ const Order = require('../Models/orderModels')
 const Product = require('../Models/productModels')
 
 const logger = require('../Logger/logger')
+const {
+    getCache,
+    setCache
+} = require('../Services/redisService')
 
 const createOrder = async(req, res) => {
     const UserId = req.user._id
@@ -44,14 +48,25 @@ const getOrders = async (req, res) => {
     const UserId = req.user._id; // Get the authenticated user's ID
 
     try {
-        logger.info('Finding Information..')
+        logger.info('Fetching Orders...')
+        const cachedOrders = await getCache('orders')
+        if(cachedOrders) {
+            logger.info('Returning Cached Orders')
+            logger.info(cachedOrders)
+            const parsedOrders = JSON.parse(cachedOrders)
+            logger.info(parsedOrders)
+            return res.status(200).json(parsedOrders)
+        }
+        logger.info('Finding Orders From Database..')
         const orders = await Order.find({ UserId }).populate('items.ProductId');
         if (!orders) {
             logger.error('Cannot find Order..')
             return res.status(404).json({ message: 'Orders not found' });
         }
+        logger.info('Caching Orders..')
+        await setCache('orders', orders)
+        logger.ingo(orders)
         res.status(200).json(orders);
-        logger.info(orders)
     } catch (error) {
         logger.error(error)
         res.status(500).json({ message: 'Server error', error });

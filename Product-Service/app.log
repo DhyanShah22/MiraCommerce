@@ -401,3 +401,54 @@
 2024-06-07T13:48:05.289Z info: Product Updating
 2024-06-07T13:48:11.720Z info: /api/product/66630ede488be8a2170ca8dd
 2024-06-07T13:48:30.312Z info: Connected to DB and listening to port: 8000
+2024-06-09T05:51:13.803Z info: /api/product/
+2024-06-09T05:51:13.815Z info: seller
+2024-06-09T05:51:13.822Z info: 66630c8ca2512cc03dc5fc07
+2024-06-09T05:51:13.833Z info: Authentication success...
+2024-06-09T05:51:13.845Z info: Product Created!!!
+2024-06-09T05:51:31.708Z info: /api/product/
+2024-06-09T05:54:08.785Z info: /api/product/
+2024-06-09T05:54:08.787Z info: Fetching Products
+2024-06-09T05:54:08.790Z info: Fetchinf Products From DB..
+2024-06-09T05:54:08.820Z info: Caching Products..
+2024-06-09T05:54:08.822Z info: {
+  _id: new ObjectId('666542d12183e591f4cbd69f'),
+  Name: 'Nike Shoe',
+  Description: 'A Tennis SHoe',
+  Price: 21000,
+  Stock: 12,
+  SellerId: new ObjectId('66630c8ca2512cc03dc5fc07'),
+  createdAt: 2024-06-09T05:51:13.836Z,
+  updatedAt: 2024-06-09T05:51:13.836Z,
+  __v: 0
+},{
+  _id: new ObjectId('66630ede488be8a2170ca8dd'),
+  Name: 'Addidas Shoe',
+  Description: 'A sport shoe',
+  Price: 15000,
+  Stock: 10,
+  SellerId: new ObjectId('66630c8ca2512cc03dc5fc07'),
+  createdAt: 2024-06-07T13:45:02.156Z,
+  updatedAt: 2024-06-07T13:48:05.270Z,
+  __v: 0
+}
+2024-06-09T05:54:16.451Z info: /api/product/
+2024-06-09T05:54:16.452Z info: Fetching Products
+2024-06-09T05:54:16.454Z info: Returning cached Products
+2024-06-09T05:54:16.454Z info: [{"_id":"666542d12183e591f4cbd69f","Name":"Nike Shoe","Description":"A Tennis SHoe","Price":21000,"Stock":12,"SellerId":"66630c8ca2512cc03dc5fc07","createdAt":"2024-06-09T05:51:13.836Z","updatedAt":"2024-06-09T05:51:13.836Z","__v":0},{"_id":"66630ede488be8a2170ca8dd","Name":"Addidas Shoe","Description":"A sport shoe","Price":15000,"Stock":10,"SellerId":"66630c8ca2512cc03dc5fc07","createdAt":"2024-06-07T13:45:02.156Z","updatedAt":"2024-06-07T13:48:05.270Z","__v":0}]
+2024-06-09T05:54:16.454Z info: Parsed cached Products
+2024-06-09T05:54:16.455Z info: [object Object],[object Object]
+2024-06-09T05:54:58.035Z info: /api/product/66630ede488be8a2170ca8dd
+2024-06-09T05:54:58.049Z info: Cacging Product...
+2024-06-09T05:54:58.050Z info: {
+  _id: new ObjectId('66630ede488be8a2170ca8dd'),
+  Name: 'Addidas Shoe',
+  Description: 'A sport shoe',
+  Price: 15000,
+  Stock: 10,
+  SellerId: new ObjectId('66630c8ca2512cc03dc5fc07'),
+  createdAt: 2024-06-07T13:45:02.156Z,
+  updatedAt: 2024-06-07T13:48:05.270Z,
+  __v: 0
+}
+2024-06-09T05:55:03.262Z info: /api/product/66630ede488be8a2170ca8dd

@@ -3,13 +3,25 @@ const { default: mongoose} = require('mongoose')
 const Product = require('../Models/productModels')
 
 const logger = require('../Logger/logger')
+const { getCache, setCache } = require('../Services/redisService')
 
 const getProduct = async (req, res) => {
     logger.info('Fetching Products')
+    const cachedProducts = await getCache('products')
+    if (cachedProducts) {
+        logger.info('Returning cached Products');
+        logger.info(cachedProducts) // Log cached data
+        const parsedProducts = JSON.parse(cachedProducts);
+        logger.info('Parsed cached Products');
+        logger.info(parsedProducts) // Log parsed data
+        return res.status(201).json(parsedProducts);
+    }
+    logger.info('Fetchinf Products From DB..')
     const products = await Product.find({}).sort({createdAt: -1})
-
-    logger.info('Products: ', products)
-    return res.json(products)
+    logger.info('Caching Products..')
+    await setCache('products', products)   
+    logger.info(products) 
+    return res.status(200).json(products)
 }
 
 const getProductById = async (req, res) => {
@@ -19,13 +31,21 @@ const getProductById = async (req, res) => {
         return res.status(400).json({ error: 'Not a valid DB id' });
     }
 
+    const cachedProducts = await getCache(`product:${id}`)
+    if(cachedProducts) {
+        return res.status(200).json(JSON.parse(cachedProducts))
+    }
+
     const product = await Product.findById(id)
 
     if (!product) {
         return res.status(404).json({ msg: 'Product not found' });
     }
 
-    return res.json(product)
+    logger.info('Cacging Product...')
+    setCache(`product:${id}`, product)
+    logger.info(product)
+    return res.status(200).json(product)
 }
 
 const createProduct = async(req, res) => {
