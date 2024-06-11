@@ -1,15 +1,45 @@
 const Order = require('../Models/orderModels')
 const Product = require('../Models/productModels')
-
+const axios = require('axios');
 const logger = require('../Logger/logger')
 const {
     getCache,
     setCache
 } = require('../Services/redisService')
 
+const initiatePayment = async (order, userToken) => {
+    const paymentData = {
+        OrderId: order._id,
+        Amount: order.totalPrice,
+    };
+
+    if (!userToken) {
+        logger.error('User token is missing')
+        throw new Error('User token is missing');
+    }
+
+    try { 
+    const response = await axios.post('http://localhost:5000/api/payment/create', paymentData, {
+        headers: {
+            'x-auth-token': userToken,
+        },
+    });
+    return response.data
+}
+    catch(error){
+        logger.error('Payment initiation failed', {
+            message: error.message,
+            stack: error.stack,
+            response: error.response ? error.response.data : null,
+        });
+        throw new Error('Payment initiation failed');
+    }
+};
+
 const createOrder = async(req, res) => {
     const UserId = req.user._id
     const {items} = req.body
+    const userToken = req.headers['x-auth-token']; 
 
     try {
         let totalPrice = 0;
@@ -36,7 +66,9 @@ const createOrder = async(req, res) => {
 
         await order.save()
         logger.info('Order Saved')
-        res.status(201).json({ message: 'Order created', order });
+        await initiatePayment(order, userToken)
+        logger.info('Payment Initiated...')
+        res.status(201).json({ message: 'Order created and Payment Initiated', order });
     }
     catch(error) {
         res.status(500).json({ message: 'Server error', error });

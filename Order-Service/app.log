@@ -103,3 +103,189 @@
 2024-06-09T09:39:31.654Z info: Connected to DB and listening to port: 4000
 2024-06-09T10:51:33.239Z info: Connected to DB and listening to port: 4000
 2024-06-09T10:52:10.912Z info: Connected to DB and listening to port: 4000
+2024-06-11T05:49:25.747Z info: Connected to DB and listening to port: 4000
+2024-06-11T07:55:39.876Z info: Connected to DB and listening to port: 4000
+2024-06-11T07:55:43.860Z info: Connected to DB and listening to port: 4000
+2024-06-11T08:00:53.520Z info: Connected to DB and listening to port: 4000
+2024-06-11T08:00:56.137Z info: /api/order/
+2024-06-11T08:02:29.944Z info: /api/order/
+2024-06-11T08:02:29.947Z info: customer
+2024-06-11T08:02:29.953Z info: Authentication success...
+2024-06-11T08:02:29.966Z info: Total Price counting..
+2024-06-11T08:02:29.977Z info: Order Saved
+2024-06-11T08:02:29.979Z error: axios is not defined
+2024-06-11T08:02:31.425Z info: /api/order/
+2024-06-11T08:02:31.427Z info: customer
+2024-06-11T08:02:31.428Z info: Authentication success...
+2024-06-11T08:02:31.433Z info: Total Price counting..
+2024-06-11T08:02:31.436Z info: Order Saved
+2024-06-11T08:02:31.437Z error: axios is not defined
+2024-06-11T08:03:55.033Z info: Connected to DB and listening to port: 4000
+2024-06-11T08:03:57.814Z info: /api/order/
+2024-06-11T08:03:57.818Z info: customer
+2024-06-11T08:03:57.825Z info: Authentication success...
+2024-06-11T08:03:57.839Z info: Total Price counting..
+2024-06-11T08:03:57.864Z info: Order Saved
+2024-06-11T08:03:57.869Z error: axios is not defined
+2024-06-11T08:04:17.636Z info: Connected to DB and listening to port: 4000
+2024-06-11T08:04:21.623Z info: /api/order/
+2024-06-11T08:04:21.630Z info: customer
+2024-06-11T08:04:21.634Z info: Authentication success...
+2024-06-11T08:04:21.656Z info: Total Price counting..
+2024-06-11T08:04:21.680Z info: Order Saved
+2024-06-11T08:04:21.741Z error: Request failed with status code 401
+2024-06-11T09:27:39.721Z info: /api/order/
+2024-06-11T09:27:39.724Z info: customer
+2024-06-11T09:27:39.725Z info: Authentication success...
+2024-06-11T09:27:39.730Z info: Total Price counting..
+2024-06-11T09:27:39.737Z info: Order Saved
+2024-06-11T09:27:39.786Z error: Request failed with status code 401
+2024-06-11T09:28:04.099Z info: /api/order/
+2024-06-11T09:28:04.102Z info: customer
+2024-06-11T09:28:04.103Z info: Authentication success...
+2024-06-11T09:28:04.112Z info: Total Price counting..
+2024-06-11T09:28:04.124Z info: Order Saved
+2024-06-11T09:28:04.148Z error: Request failed with status code 401
+2024-06-11T09:29:43.769Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:29:45.620Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:29:47.963Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:29:57.887Z info: /api/order/
+2024-06-11T09:29:57.911Z info: customer
+2024-06-11T09:29:57.953Z info: Authentication success...
+2024-06-11T09:29:57.987Z info: Total Price counting..
+2024-06-11T09:29:58.066Z info: Order Saved
+2024-06-11T09:29:58.072Z error: userToken is not defined
+2024-06-11T09:30:16.017Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:30:18.643Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:30:23.158Z info: /api/order/
+2024-06-11T09:30:23.163Z info: customer
+2024-06-11T09:30:23.166Z info: Authentication success...
+2024-06-11T09:30:23.181Z info: Total Price counting..
+2024-06-11T09:30:23.201Z info: Order Saved
+2024-06-11T09:30:23.223Z error: Request failed with status code 401
+2024-06-11T09:31:46.249Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:32:04.954Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:32:06.800Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:32:10.687Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:32:12.447Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:32:13.926Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:32:20.862Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:32:23.299Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:33:32.791Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:33:43.288Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:36:00.552Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:36:13.709Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:36:25.495Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:36:28.010Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:37:22.862Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:37:25.669Z info: Connected to DB and listening to port: 4000
+2024-06-11T09:37:50.895Z info: /api/order/
+2024-06-11T09:37:50.900Z info: customer
+2024-06-11T09:37:50.910Z info: Authentication success...
+2024-06-11T09:37:50.939Z info: Total Price counting..
+2024-06-11T09:37:50.984Z info: Order Saved
+2024-06-11T09:37:51.516Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T09:37:51.523Z error: Payment initiation failed
+2024-06-11T10:05:54.231Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:05:55.734Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:05:57.287Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:06:00.890Z info: /api/order/
+2024-06-11T10:06:00.894Z info: customer
+2024-06-11T10:06:00.897Z info: Authentication success...
+2024-06-11T10:06:00.914Z info: Total Price counting..
+2024-06-11T10:06:00.934Z info: Order Saved
+2024-06-11T10:06:01.348Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T10:06:01.351Z error: Payment initiation failed
+2024-06-11T10:07:31.893Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:07:33.715Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:07:37.208Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:07:39.584Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:07:40.762Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:07:43.390Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:07:48.883Z info: /api/order/
+2024-06-11T10:07:48.888Z info: customer
+2024-06-11T10:07:48.891Z info: Authentication success...
+2024-06-11T10:07:48.908Z info: Total Price counting..
+2024-06-11T10:07:48.928Z info: Order Saved
+2024-06-11T10:07:48.928Z info: [object Object]
+2024-06-11T10:07:49.341Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T10:07:49.346Z error: Payment initiation failed
+2024-06-11T10:08:39.524Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:08:41.319Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:08:42.575Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:08:44.283Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:08:45.923Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:08:47.465Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:08:51.953Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:09:04.585Z info: /api/order/
+2024-06-11T10:09:04.589Z info: customer
+2024-06-11T10:09:04.592Z info: Authentication success...
+2024-06-11T10:09:04.611Z info: Total Price counting..
+2024-06-11T10:09:04.635Z info: Order Saved
+2024-06-11T10:09:04.638Z error: OrderId is not defined
+2024-06-11T10:09:52.591Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:10:00.095Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:10:03.171Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:11:15.450Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:11:19.048Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:11:22.873Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:11:26.556Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:11:29.806Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:11:46.388Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:11:48.824Z info: /api/order/
+2024-06-11T10:11:48.834Z info: customer
+2024-06-11T10:11:48.842Z info: Authentication success...
+2024-06-11T10:11:48.860Z info: Total Price counting..
+2024-06-11T10:11:48.885Z info: Order Saved
+2024-06-11T10:11:49.479Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T10:11:49.484Z error: Payment initiation failed
+2024-06-11T10:15:10.000Z info: /api/order/
+2024-06-11T10:15:10.003Z info: customer
+2024-06-11T10:15:10.003Z info: Authentication success...
+2024-06-11T10:15:10.006Z info: Total Price counting..
+2024-06-11T10:15:10.013Z info: Order Saved
+2024-06-11T10:15:10.395Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T10:15:10.399Z error: Payment initiation failed
+2024-06-11T10:27:05.795Z info: /api/order/
+2024-06-11T10:27:05.797Z info: customer
+2024-06-11T10:27:05.798Z info: Authentication success...
+2024-06-11T10:27:05.802Z info: Total Price counting..
+2024-06-11T10:27:05.813Z info: Order Saved
+2024-06-11T10:27:06.431Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T10:27:06.438Z error: Payment initiation failed
+2024-06-11T10:27:49.150Z info: /api/order/
+2024-06-11T10:27:49.154Z info: customer
+2024-06-11T10:27:49.154Z info: Authentication success...
+2024-06-11T10:27:49.157Z info: Total Price counting..
+2024-06-11T10:27:49.163Z info: Order Saved
+2024-06-11T10:27:49.467Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T10:27:49.472Z error: Payment initiation failed
+2024-06-11T10:28:56.655Z info: /api/order/
+2024-06-11T10:28:56.656Z info: customer
+2024-06-11T10:28:56.656Z info: Authentication success...
+2024-06-11T10:28:56.658Z info: Total Price counting..
+2024-06-11T10:28:56.666Z info: Order Saved
+2024-06-11T10:28:56.827Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T10:28:56.837Z error: Payment initiation failed
+2024-06-11T10:29:18.244Z info: /api/order/
+2024-06-11T10:29:18.245Z info: customer
+2024-06-11T10:29:18.246Z info: Authentication success...
+2024-06-11T10:29:18.249Z info: Total Price counting..
+2024-06-11T10:29:18.253Z info: Order Saved
+2024-06-11T10:29:18.459Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T10:29:18.460Z error: Payment initiation failed
+2024-06-11T10:32:09.962Z info: /api/order/
+2024-06-11T10:32:09.963Z info: customer
+2024-06-11T10:32:09.963Z info: Authentication success...
+2024-06-11T10:32:09.965Z info: Total Price counting..
+2024-06-11T10:32:09.971Z info: Order Saved
+2024-06-11T10:32:09.977Z error: Payment initiation failed
+2024-06-11T10:32:09.978Z error: Payment initiation failed
+2024-06-11T10:34:12.758Z info: Connected to DB and listening to port: 4000
+2024-06-11T10:34:39.858Z info: /api/order/
+2024-06-11T10:34:39.877Z info: customer
+2024-06-11T10:34:39.882Z info: Authentication success...
+2024-06-11T10:34:39.905Z info: Total Price counting..
+2024-06-11T10:34:39.930Z info: Order Saved
+2024-06-11T10:34:40.626Z error: Payment initiation failed Request failed with status code 500
+2024-06-11T10:34:40.629Z error: Payment initiation failed
