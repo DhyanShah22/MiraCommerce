@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app:
+    build: .
+    ports:
+      - "9000:9000"
+    depends_on:
+      - mongo
+    env_file:
+      - .env
+    environment:
+      MONGO_URI: mongodb://127.0.0.1:27017/?directConnection=true
+
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"

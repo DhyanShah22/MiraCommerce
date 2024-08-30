@@ -54,3 +54,5 @@
 2024-06-11T08:02:00.399Z info: /api/user/signup
 2024-06-11T08:02:00.511Z info: User Signed Up!!!
 2024-06-11T08:02:00.536Z info: Token created!!!
+2024-08-30T04:01:49.470Z info: Connected to DB and listening to port: 9000
+2024-08-30T04:01:52.363Z info: Connected to DB and listening to port: 9000

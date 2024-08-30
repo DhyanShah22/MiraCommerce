@@ -580,3 +580,4 @@
 }
 2024-06-11T10:34:40.032Z info: Payment Intent
 2024-06-11T10:34:40.613Z error: You did not provide an API key. You need to provide your API key in the Authorization header, using Bearer auth (e.g. 'Authorization: Bearer YOUR_SECRET_KEY'). See https://stripe.com/docs/api#authentication for details, or we can help at https://support.stripe.com/.
+2024-08-30T04:01:19.426Z info: Connected to DB and listening to port: 5000

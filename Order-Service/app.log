@@ -289,3 +289,8 @@
 2024-06-11T10:34:39.930Z info: Order Saved
 2024-06-11T10:34:40.626Z error: Payment initiation failed Request failed with status code 500
 2024-06-11T10:34:40.629Z error: Payment initiation failed
+2024-08-30T04:00:50.728Z info: Connected to DB and listening to port: 4000
+2024-08-30T05:07:45.404Z info: Connected to DB and listening to port: 4000
+2024-08-30T05:07:57.684Z info: Connected to DB and listening to port: 4000
+2024-08-30T05:08:00.830Z info: Connected to DB and listening to port: 4000
+2024-08-30T05:08:20.660Z info: Connected to DB and listening to port: 4000

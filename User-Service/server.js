@@ -24,11 +24,11 @@ app.use((req, res, next) => {
 app.get('/metrics', metricsEndpoint);
 
 app.use('/api/user', userRoutes)
-mongoose.connect(process.env.MONG_URI)
+mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         app.listen((process.env.PORT), () => {
-            console.log('Connected to DB and listening to port', process.env.PORT)
-            //logger.info('Connected to DB and listening to port: 9000')
+            //console.log('Connected to DB and listening to port', process.env.PORT)
+            logger.info('Connected to DB and listening to port: 9000')
         })
     })
     .catch((error) => {

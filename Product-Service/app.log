@@ -452,3 +452,5 @@
   __v: 0
 }
 2024-06-09T05:55:03.262Z info: /api/product/66630ede488be8a2170ca8dd
+2024-08-30T04:02:07.994Z info: Connected to DB and listening to port: 8000
+2024-08-30T04:02:09.574Z info: Connected to DB and listening to port: 8000
